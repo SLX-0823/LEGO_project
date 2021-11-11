@@ -102,6 +102,22 @@ img{
     border-radius: 25px;
 }
 
+.highlight{
+    height: 240px;
+    width: 250px;
+    border-radius: 22px;
+    background-color:transparent;
+    margin-top:-100%;
+    transform: scaleX(1);
+    transition: background-color 500ms ease-out;
+
+}
+
+.highlight:hover,
+.highlight:focus{
+    background-color:  rgba(0,255,0,0.6);
+}
+
 .motorcycle{
     background:linear-gradient(to bottom right, rgba(46, 45, 45, 1),rgba(46, 45, 45, 0.7));
     height: 240px;
@@ -118,11 +134,11 @@ img{
     width: 250px;
     padding: none;
     border-radius: 25px;
-    margin-top: -19.2%;
+    margin-top: -19.7%;
     border-style: solid;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     .typewriter{
         background:linear-gradient(to bottom right, rgba(46, 45, 45, 1),rgba(46, 45, 45, 0.7));
         height: 240px;
@@ -130,7 +146,7 @@ img{
         padding: none;
         border-radius: 25px;
         margin-right: 71%;
-        margin-top: 6%;
+        margin-top: 5%;
         border-style: solid;
     }
 }
