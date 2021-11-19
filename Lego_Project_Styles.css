@@ -155,6 +155,19 @@ img{
 }
 
 @media screen and (max-width: 500px){
+    nav{
+        background: transparent;
+        align-items: center;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        height: 20%;
+        position: fixed;
+        box-shadow: 0 0 10px #000000;
+        backdrop-filter: blur(4px);
+        z-index:999;
+      }
+
     .button{
         background: linear-gradient(to bottom right, rgba(0,0,0,0.9),rgba(0,0,0,0.3));
         width: 50px;
@@ -163,29 +176,52 @@ img{
         display: flex;
         position: absolute;
         align-items: center;
-        margin-top: 100%;
+        margin-top: 120%;
         margin-left: 40%;
         padding: 3px;
         padding-left: 19px;
         border-style:solid;
     }
 
-    .typewriter{
+    .motorcycle{
         background:linear-gradient(to bottom right, rgba(46, 45, 45, 1),rgba(46, 45, 45, 0.7));
-        height: 240px;
-        width: 250px;
+        height: 340px;
+        width: 350px;
         padding: none;
         border-radius: 25px;
         margin-right: 71%;
-        margin-top: 0%;
         border-style: solid;
+    }
+
+    .typewriter{
+        background:linear-gradient(to bottom right, rgba(46, 45, 45, 1),rgba(46, 45, 45, 0.7));
+        height: 340px;
+        width: 350px;
+        padding: none;
+        border-radius: 25px;
+        margin-right: 71%;
+        margin-top: -10%;
+        border-style: solid;
+    }
+
+    .mainfooter{
+        background: transparent;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 20%;
+        box-shadow: 0 0 10px #000000;
+        backdrop-filter: blur(2px);
+        z-index:998;
     }
 
     .footer{
         background: transparent;
         display: flex;
         align-items: center;
-        padding-left:0%;
+        padding-left:1%;
         left: 0;
         bottom: 0px;
         width: auto;
