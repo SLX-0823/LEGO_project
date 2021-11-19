@@ -254,7 +254,7 @@ img, .intropic{
         width: 250px;
         border-radius: 20px;
         background-color:transparent;
-        margin-top:-100.6%;
+        margin-top:-100.7%;
         transform: scaleX(1);
         transition: background-color 500ms ease-out;
     
@@ -282,7 +282,7 @@ img, .intropic{
         background: transparent;
         display: flex;
         align-items: center;
-        padding-left: 7%;
+        padding-left: 6%;
         left: 0;
         bottom: 0px;
         width: auto;
