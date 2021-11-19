@@ -163,7 +163,7 @@ img{
         display: flex;
         position: absolute;
         align-items: center;
-        margin-top: -20%;
+        margin-top: 80%;
         margin-left: 4%;
         padding: 3px;
         padding-left: 20px;
@@ -177,7 +177,7 @@ img{
         padding: none;
         border-radius: 25px;
         margin-right: 71%;
-        margin-top: 5%;
+        margin-top: 0%;
         border-style: solid;
     }
 
