@@ -104,7 +104,7 @@ img, .intropic{
 .highlight{
     height: 240px;
     width: 250px;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color:transparent;
     margin-top:-99.5%;
     transform: scaleX(1);
@@ -170,7 +170,7 @@ img, .intropic{
   z-index:998;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     nav{
         background: transparent;
         align-items: center;
@@ -252,9 +252,9 @@ img, .intropic{
     .highlight{
         height: 241px;
         width: 250px;
-        border-radius: 25px;
+        border-radius: 20px;
         background-color:transparent;
-        margin-top:-100.5%;
+        margin-top:-100.6%;
         transform: scaleX(1);
         transition: background-color 500ms ease-out;
     
@@ -272,7 +272,7 @@ img, .intropic{
         left: 0;
         bottom: 0px;
         width: 100%;
-        height: 75px;
+        height: auto;
         box-shadow: 0 0 10px #000000;
         backdrop-filter: blur(2px);
         z-index:998;
@@ -282,7 +282,7 @@ img, .intropic{
         background: transparent;
         display: flex;
         align-items: center;
-        padding-left: 8%;
+        padding-left: 7%;
         left: 0;
         bottom: 0px;
         width: auto;
