@@ -30,6 +30,22 @@ nav{
     border-style:solid;
 }
 
+.button2{
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.9),rgba(0,0,0,0.3));
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: -5.5%;
+    margin-left: 4%;
+    padding: 3px;
+    padding-left: 20px;
+    border-style:solid;
+    display: none;
+}
+
 .nav_h1{
     font-size:200%;
 }
@@ -90,7 +106,7 @@ img{
     width: 250px;
     border-radius: 22px;
     background-color:transparent;
-    margin-top:-100%;
+    margin-top:-99.5%;
     transform: scaleX(1);
     transition: background-color 500ms ease-out;
 
@@ -173,13 +189,27 @@ img{
         width: 50px;
         height: 30px;
         border-radius: 30px;
-        display: flex;
         position: relative;
         align-items: center;
         margin-top: 120%;
         margin-left: 40%;
         padding: 3px;
         padding-left: 10px;
+        border-style:solid;
+        display: none;
+    }
+
+    .button2{
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 1),rgba(0,0,0,0.5));
+        width: 70px;
+        height: 30px;
+        border-radius: 30px;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        margin-left: 36%;
+        padding: 3px;
+        padding-left: 43px;
         border-style:solid;
     }
 
@@ -189,7 +219,7 @@ img{
         width: 250px;
         padding: none;
         border-radius: 25px;
-        margin-right: 71%;
+        margin-right: 0%;
         border-style: solid;
     }
 
@@ -199,9 +229,25 @@ img{
         width: 250px;
         padding: none;
         border-radius: 25px;
-        margin-right: 71%;
-        margin-top: -5%;
+        margin-right: 0%;
+        margin-top: 10%;
         border-style: solid;
+    }
+
+    .highlight{
+        height: 240px;
+        width: 250px;
+        border-radius: 22px;
+        background-color:transparent;
+        margin-top:-99.5%;
+        transform: scaleX(1);
+        transition: background-color 500ms ease-out;
+    
+    }
+    
+    .highlight:hover,
+    .highlight:focus{
+        background-color:  rgba(0,255,0,0.6);
     }
 
     .mainfooter{
@@ -221,7 +267,7 @@ img{
         background: transparent;
         display: flex;
         align-items: center;
-        padding-left:2%;
+        padding-left: 17%;
         left: 0;
         bottom: 0px;
         width: auto;
